@@ -10,21 +10,22 @@ In order to manipulate the data, we creatd two seperate pivot tables and associa
 The analysis based on launch dates was conducted by creating a pivot table to examine specifc months in which theater campaigns were conducted and to chart the relative frequncy of those outcomes over time. In the image below, the chart mentioend can be referenced. 
 According to the data, there are similar observable patterns that occur between failed and successful kickstarter campaigns in any given month. More specifically, the data's directional moves (increase or decrease) were the same or similar for failed and succesful campaigns in all months except from November to December where the number of succesful campaigns decreased and the number of failed campaigns increased. 
 In the image included below, we can see that the failed kickstarter campaign data tends to follow a similar shape to the succesful campaigns over time, just at a lower maginitude.
-![Theater_Outcomes_vs_Launch]()
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/115036844/195756099-cb5a4bf5-364c-4261-889f-ba1f10450646.png)
 There seems to be a slighly positive correlation between the success and failure of a campaign in any given month (i.e. if the number of succesful kickstarters increased from January to February it is likely that the number of failed kickstarters failed as well). Additionally, The earlier and later months seem to demonstrate the least amount of overall activity relative to the middle (summer) months. 
 Data regarding the canceled campaigns was relatively flat indicating that there were not strong seasonal effects determining whether or not a campaign would be canceled. 
 All references to the data can be found in the excel sheet linked below
-[Kickstarter_Challenge]()
+[Kickstarter_Challenge.xlsx](https://github.com/liamkillingstad/kickstarter-analysis-challenge-1/files/9782252/Kickstarter_Challenge.xlsx)
 ### Analysis of Outcomes Based on Goals
 The outcomes based on goals analysis was conducted by utilizing excel's *COUNTIFS* functionality to determine how many succesful, failed, and canceled campaigns were conducted within specified "raise targts". The raise targets were denoted in $5,000 increments from $0 through figures greater than $50,000. 
 In order to manioulate the data, we were required to utilzie multiple if statements to classify data from the main sheet to satisfy the "play" category, the raise amount, and the level of completion (succesful, failed, canceled).
 We then calculated the percentage associated with each kickstarter campaign goal range across succesful, failed, and canceled campaigns. The output can be seen in the image below. 
-![Outcomes_vs_Goals]()
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/115036844/195756170-f8cde05b-a967-49fa-8369-44f837ed1247.PNG)
+
 According to the data, there were no theater kickstarter campaings cancelled for any given fundraising target. Additionally, it appears as though the success rate of a given campaign steadily declines from a success % standpoints from the the less than $1,000 band until approximately the $25,0000 to $29,999 band. The inverse is true for the % of failed campaigns. 
 The inverse symmetry of the graphs can be seen in the image provided below. 
-![Outcomes_vs_Goals]()
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/115036844/195756170-f8cde05b-a967-49fa-8369-44f837ed1247.PNG)
 All references to the data can be found in the excel sheet linked below
-[Kickstarter_Challenge]()
+[Kickstarter_Challenge.xlsx](https://github.com/liamkillingstad/kickstarter-analysis-challenge-1/files/9782252/Kickstarter_Challenge.xlsx)
 ### Challenges and Difficulties Encountered
 While there were no challenges in putting together the analysis, there could have been some difficulties when calculating the various conditionals within the "Outcomes Based on Goals" Analysis. 
 ## Results
